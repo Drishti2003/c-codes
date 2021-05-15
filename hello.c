@@ -7,6 +7,6 @@ int main()
 	printf("Drishti\bKirodiwal\n"); // backspace
 	printf("Drishti\\Kirodiwal\n"); // put the quote 
 	printf("Drishti\"Kirodiwal\n"); // print "
-	printf("shree\tDrishti\rKirodiwal"); // remove all the characters before \r
+	printf("rishti\rKirodiwal"); // remove all the characters before \r
 
 }
