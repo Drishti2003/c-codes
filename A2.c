@@ -8,9 +8,20 @@ int main()
 	{
 		printf("divisible by 5\n");
 	}
-	if(x/5!=0)
-	{	int y;
-		y=x%5;
-		printf("%d\n",y);
+	else  if(x%5!=0)
+	{	int y,z;
+		y=5-x%5;
+		z=x%5;
+		if(y>z)
+		{	int r;
+			r==y>z;
+			printf("substract %d to be divisible by 5\n",z);
+		}
+		else if(y<z)
+		{	int t;
+			t==y<z;
+			printf("add %d to be divisible by 5\n",y);
+		}
 	}	
+	
 }
