@@ -18,9 +18,9 @@ int main()
 			scanf("%d",&a[i]);
 		}
 		int b[M];		
-		for(i=0;i<M;i++)
+		for(int p=0;p<M;p++)
 		{
-			scanf("%d",&b[i]);
+			scanf("%d",&b[p]);
 		}	
 		for(i=0;i<N;i++)
 		{	if(a[i] == 1)
@@ -71,8 +71,8 @@ int main()
 		{
 			int j=b[i];
 			int k=t[j-1];
-			printf("%d",k);
-			printf("%d",t[0]);
+			printf("%d ",k);
 		}
+	printf("\n");
 	}
 }
