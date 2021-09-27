@@ -10,4 +10,8 @@ int main()
     t=x-y;
     printf("%d %d\n",c,d);
     printf("%.1f %.1f\n",z,t);
- }   
+ }
+
+
+
+ 
