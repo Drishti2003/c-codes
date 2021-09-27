@@ -12,6 +12,10 @@ int main()
 	x=23%5;
 	printf("%d\n",x);
 
+	// relational operatores
 	x=5>4>3;
 	printf("%d\n",x);
+	/* <, >, <=, >=
+	   ==, !=
+	*/
 }
