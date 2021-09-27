@@ -10,7 +10,8 @@ struct book input()
 	struct book b;
 	printf("Enter bookid, title and price");
 	scanf("%d",&b.bookid);
-	scanf("%c",&b.title);
+	fflush(stdin);
+	gets(b.title);
 	scanf("%f",&b.price); 
 	return(b);
 }
